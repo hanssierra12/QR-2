@@ -73,11 +73,11 @@ function validateFields(curso, nombree, nombrep, cursoc, codigoe, pa, cc1, cl, c
     console.log(`cl2: ${cl2}`);
 
     if (!curso) message += "Curso is required.\n";
-    if (!nombree) message += "Nombre Estudiante is required.\n";
-    if (!nombrep) message += "Nombre Profesor is required.\n";
-    if (!cursoc) message += "Curso Corregido is required.\n";
-    if (!codigoe) message += "Codigo Estudiante is required.\n";
-    if (!pa) message += "Periodo Academico is required.\n";
+    if (!nombree) message += "Nombre Estudiante es requerido.\n";
+    if (!nombrep) message += "Nombre Profesor es requerido.\n";
+    if (!cursoc) message += "Curso Corregido es requerido.\n";
+    if (!codigoe) message += "Codigo Estudiante es requerido.\n";
+    if (!pa) message += "Periodo Academico es requerido.\n";
     if (!cc1) {
         message += "la calficación en letra es requerida.\n";
     } else if (!isNumber(cc1)) {
